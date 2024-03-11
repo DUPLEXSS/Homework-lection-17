@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: #212529;
+}
+
+.navbar {
+  background-color: #212529;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-links {
+  color: #939D97;
+}
+
+.card-container {
+  margin-top: 100px;
+}
+
+.card-inner {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.card {
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.card h5 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.card p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.card a {
+  display: flex;
+  justify-content: center;
+}
+
+.card-inner img {
+  border-radius: 50%;
+}
+
+.horizontal-line {
+  width: 80%;
+  height: 1px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  background-color: #505458;
+}
+
+.images img {
+  width: 320px;
+  float: right;
+}/*# sourceMappingURL=style.css.map */

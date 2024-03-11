@@ -1,0 +1,78 @@
+$white: white;
+
+body{
+    margin: 0;
+    background-color: #212529;
+}
+
+.navbar{
+    background-color: #212529;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-links{
+    color: #939D97;
+}
+
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    margin-top: 100px
+}
+
+.card-inner{
+    @include flex-center();
+    gap: 100px;
+}
+
+.card{
+    background-color: #212529;
+    @include flex-center();
+    border: none;
+
+    h5{
+        color: white;
+        @include flex-center();
+    }
+
+    p{
+        color: white;
+        @include flex-center();
+    }
+
+    a{
+        @include flex-center();
+    }
+
+
+}
+
+.card-inner img{
+    border-radius: 50%;
+}
+
+.horizontal-line{
+    width :80%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    background-color: #505458;
+}
+
+.images img{
+    width: 320px;
+    float: right;
+}
